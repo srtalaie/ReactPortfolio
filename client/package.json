@@ -2,9 +2,12 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3001/",
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-emotion": "^9.2.12",
+    "react-materialize": "^2.4.8",
     "react-scripts": "2.0.5"
   },
   "scripts": {
