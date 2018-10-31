@@ -7,6 +7,8 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import { CardActionArea, CardActions } from "@material-ui/core";
 import profilePic from "../assets/images/profilePic.jpg";
+import ProjectsCard from "../components/ProjectsCard/ProjectsCard";
+import ProjectsArr from "../assets/projects/projects";
 
 const headingStyles = {
     margin: 20
@@ -14,6 +16,10 @@ const headingStyles = {
 
 const cardStyles = {
     width: "25%"
+}
+
+const projectCardStyles = {
+    margin: 40
 }
 
 class Home extends Component {
@@ -35,6 +41,7 @@ class Home extends Component {
                     align="center" 
                     color="textSecondary" 
                     paragraph
+                    style={{margin: 20}}
                 >
                     Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome.
                 </Typography>
@@ -51,10 +58,28 @@ class Home extends Component {
                             />
                         </CardActionArea>
                         <CardActions>
-                            <Button size="small" color="primary">GitHub</Button>
-                            <Button size="small" color="primary">LinkedIn</Button>
+                            <Button size="small" color="primary" href="https://github.com/srtalaie">GitHub</Button>
+                            <Button size="small" color="primary" href="https://www.linkedin.com/in/sasha-talaie/">LinkedIn</Button>
                         </CardActions>
                     </Card> 
+                </Grid>
+                <Grid container
+                    justify="center"
+                    spacing={24}
+                >
+                    {ProjectsArr.map(project => {
+                        return(
+                            <Grid item xs>
+                                <ProjectsCard key={project.id} 
+                                    image = {project.image}
+                                    title = {project.title}
+                                    gitHubLink = {project.gitHubLink}
+                                    description = {project.description}
+                                    cardstyle = {projectCardStyles}
+                                />
+                            </Grid>
+                        )
+                    })}
                 </Grid>
             </div> 
         )
