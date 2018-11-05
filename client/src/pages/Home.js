@@ -15,7 +15,10 @@ const headingStyles = {
 }
 
 const cardStyles = {
-    width: "25%"
+    width: "25%",
+    display: "flex",
+    flexWrap: "wrap",
+    justifyContent: "center"
 }
 
 const projectCardStyles = {
@@ -64,8 +67,10 @@ class Home extends Component {
                     </Card> 
                 </Grid>
                 <Grid container
+                    lg={"auto"} md={"auto"} sm={"auto"} xl={"auto"} xs={"auto"}
                     justify="center"
-                    spacing={24}
+                    wrap="no-wrap"
+                    spacing={16}
                 >
                     {ProjectsArr.map(project => {
                         return(

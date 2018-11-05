@@ -23,6 +23,7 @@ const ProjectsCard = ({ image, gitHubLink, description, cardstyle, title }) => {
                     src={image}
                     title={title}
                     height="50%"
+                    width="50%"
                 />
             </CardActionArea>
             <CardContent style={innerStyle}>
