@@ -26,8 +26,8 @@ const projectCardStyles = {
 }
 
 const profileImgStyle = {
-    height: "50%",
-    width: "50%",
+    height: "60%",
+    width: "60%",
     margin: 10,
     boxShadow: "2px 4px 2px grey"
 }
