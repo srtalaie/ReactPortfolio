@@ -25,6 +25,18 @@ const projectCardStyles = {
     margin: 40
 }
 
+const profileImgStyle = {
+    height: "50%",
+    width: "50%",
+    margin: 10,
+    boxShadow: "2px 4px 2px grey"
+}
+
+const profileLinks = {
+    color: "black",
+    margin: 8
+}
+
 class Home extends Component {
     render(){
         return(
@@ -51,21 +63,33 @@ class Home extends Component {
                 <Grid container
                     justify="center"
                 >
-                    <Card style={cardStyles}>
-                        <CardActionArea>
-                            <CardMedia 
-                                component="img"
-                                src={profilePic}
-                                title="Sasha_Talaie"
-                                height="50%"
-                            />
-                        </CardActionArea>
-                        <CardActions>
-                            <Button size="small" color="primary" href="https://github.com/srtalaie">GitHub</Button>
-                            <Button size="small" color="primary" href="https://www.linkedin.com/in/sasha-talaie/">LinkedIn</Button>
-                        </CardActions>
-                    </Card> 
+                    {/* Old Profile image Card
+                        <Card style={cardStyles}>
+                            <CardActionArea>
+                                <CardMedia 
+                                    component="img"
+                                    src={profilePic}
+                                    title="Sasha_Talaie"
+                                    height="50%"
+                                />
+                            </CardActionArea>
+                            <CardActions>
+                                <Button size="small" color="primary" href="https://github.com/srtalaie">GitHub</Button>
+                                <Button size="small" color="primary" href="https://www.linkedin.com/in/sasha-talaie/">LinkedIn</Button>
+                            </CardActions>
+                        </Card>  
+                    */}
+
+                    <img src={profilePic} alt="Profile Pic" style={profileImgStyle}></img>
+
                 </Grid>
+                <Grid container justify="center">
+                    <div>
+                        <a href="https://github.com/srtalaie" style={profileLinks}>GitHub Profile</a>
+                        <a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}>LinkedIn Profile</a>
+                    </div>
+                </Grid>
+
                 <Grid container
                     lg={"auto"} md={"auto"} sm={"auto"} xl={"auto"} xs={"auto"}
                     justify="center"
