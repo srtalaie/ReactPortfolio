@@ -9,6 +9,8 @@ import { CardActionArea, CardActions } from "@material-ui/core";
 import profilePic from "../assets/images/profilePic.jpg";
 import ProjectsCard from "../components/ProjectsCard/ProjectsCard";
 import ProjectsArr from "../assets/projects/projects";
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import ReactTransitionGroup from 'react-addons-transition-group'
 
 const headingStyles = {
     margin: 20
@@ -37,6 +39,7 @@ const profileLinks = {
     margin: 8
 }
 
+
 class Home extends Component {
     render(){
         return(
@@ -51,15 +54,22 @@ class Home extends Component {
                 > 
                     Sasha Talaie's Protfolio
                 </Typography>
+                <ReactCSSTransitionGroup
+                transitionName="fade"
+                transitionAppear={true}
+                transitionEnter={true}
+                transitionEnterTimeout={500}>
                 <Typography
                     variant="h6"
                     align="center" 
                     color="textSecondary" 
                     paragraph
                     style={{margin: 20}}
+                    key={1}
                 >
                     Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome.
                 </Typography>
+                </ReactCSSTransitionGroup>
                 <Grid container
                     justify="center"
                 >

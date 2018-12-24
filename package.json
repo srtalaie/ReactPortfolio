@@ -30,6 +30,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "if-env": "^1.0.4",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "react-addons-css-transition-group": "^15.6.2"
   }
 }
