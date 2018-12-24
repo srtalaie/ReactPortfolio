@@ -28,6 +28,7 @@
   "homepage": "https://github.com/srtalaie/ReactPortfolio#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "event-stream": "^4.0.1",
     "express": "^4.16.4",
     "if-env": "^1.0.4",
     "path": "^0.12.7",
