@@ -41,6 +41,14 @@ const profileLinks = {
 
 
 class Home extends Component {
+    state = {
+        mounted: false
+    }
+
+    componentDidMount(){
+        this.setState({mounted: true});
+    }
+
     render(){
         return(
             <div>
@@ -54,11 +62,14 @@ class Home extends Component {
                 > 
                     Sasha Talaie's Protfolio
                 </Typography>
+                <ReactTransitionGroup>
                 <ReactCSSTransitionGroup
-                transitionName="fade"
-                transitionAppear={true}
-                transitionEnter={true}
-                transitionEnterTimeout={500}>
+                    transitionName="fade"
+                    transitionAppear={true}
+                    transitionAppearTimeout={3000}
+                    transitionEnterTimeout={500}
+                    transitionLeaveTimeout={300}
+                >
                 <Typography
                     variant="h6"
                     align="center" 
@@ -70,6 +81,7 @@ class Home extends Component {
                     Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome.
                 </Typography>
                 </ReactCSSTransitionGroup>
+                </ReactTransitionGroup>
                 <Grid container
                     justify="center"
                 >
