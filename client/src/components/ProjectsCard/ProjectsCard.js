@@ -14,7 +14,7 @@ const innerStyle = {
     flexWrap: "wrap"
 }
 
-const ProjectsCard = ({ image, gitHubLink, description, cardstyle, title }) => {
+const ProjectsCard = ({ image, gitHubLink, description, cardstyle, title, webLink }) => {
     return (
         <Card style={cardstyle}>
             <CardActionArea>
@@ -42,7 +42,8 @@ const ProjectsCard = ({ image, gitHubLink, description, cardstyle, title }) => {
                 </ExpansionPanel>
             </CardContent>
             <CardActions>
-                <Button size="small" color="primary" href={gitHubLink}>GitHub Repo</Button>
+                <Button size="small" color="secondary" href={gitHubLink}>GitHub Repo</Button>
+                <Button size="small" color="primary" href={webLink}>Site</Button>
             </CardActions>
         </Card> 
     )

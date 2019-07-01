@@ -127,6 +127,7 @@ class Home extends Component {
                                     gitHubLink = {project.gitHubLink}
                                     description = {project.description}
                                     cardstyle = {projectCardStyles}
+                                    webLink = {project.webSiteLink}
                                 />
                             </Grid>
                         )
