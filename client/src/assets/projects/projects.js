@@ -60,6 +60,37 @@ const Projects = [
         description: "Enter in your train's name, destination, frequency of arrivals and see when your next train will arrive and how much more time till then. Use the red 'X' button on the side to delete the corresponding train.",
         image: require("../images/trainscheduler.png"),
         webSiteLink: 'https://srtalaie.github.io/Train-Scheduler/'
+    },
+    {
+        id: 9,
+        title: "Gamestates",
+        gitHubLink: "https://github.com/srtalaie/gameStates",
+        description: "A website that displays popular games' current playerbase (monthly) to help people see whether a multiplayer game they want to play is still alive or dead.",
+        image: require("../images/gamestates.png"),
+        webSiteLink: 'https://vast-citadel-15933.herokuapp.com/'
+    },
+    {
+        id: 10,
+        title: "Baked Bear Bakery",
+        gitHubLink: "https://github.com/srtalaie/BrightBearBakery",
+        description: "A website I made for Baked Bear Bakery up in Petaluma for practice.",
+        image: require("../images/bakedbear.png"),
+        webSiteLink: 'https://nameless-scrubland-85581.herokuapp.com/'
+    },
+    {
+        id: 11,
+        title: "Reaculator",
+        gitHubLink: "https://github.com/srtalaie/Reaculator",
+        description: "A web app I made using React/Redux for freecodecamps React/Redux project",
+        image: require("../images/react-redux.png"),
+    },
+    {
+        id: 12,
+        title: "GIPHY App",
+        gitHubLink: "https://github.com/srtalaie/GIPHY-API-App",
+        description: "A web app that will pull from the GIPHY API based on the topic you enter in the search bar. Comes preloaded with the following topics: NHL, NFL, MLB, NBA, NCAA Football, NCAA BAsketball.",
+        image: require("../images/giphy.png"),
+        webSiteLink: "https://srtalaie.github.io/GIPHY-API-App/"
     }
 ]
 
