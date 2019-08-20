@@ -1,12 +1,12 @@
 const Projects = [
-    // {
-    //     id: 1,
-    //     title: "RoadTrip Buddy",
-    //     gitHubLink: "https://github.com/stannous2/Project1",
-    //     description: "Directions to your destination (both text and map). See what the weather is like at your destination. See how long your trip will take and how far you need to go.",
-    //     image: require("../images/rtbuddy.png"),
-    //     webSiteLink: 'https://stannous2.github.io/Project1/'
-    // },
+    {
+        id: 1,
+        title: "FantasyNooz",
+        gitHubLink: "https://github.com/srtalaie/fantasyNooz",
+        description: "A fantasy football dashboard I made to localize all of your fantasy football tools. The API I made receives its data from a variety of sites which I credit in the repo.",
+        image: require("../images/fantasy_football.png"),
+        webSiteLink: 'https://radiant-depths-17787.herokuapp.com/'
+    },
     {
         id: 2,
         title: "PaiMai",
