@@ -1,4 +1,12 @@
 const Projects = [
+    // {
+    //     id: 1,
+    //     title: "RoadTrip Buddy",
+    //     gitHubLink: "https://github.com/stannous2/Project1",
+    //     description: "Directions to your destination (both text and map). See what the weather is like at your destination. See how long your trip will take and how far you need to go.",
+    //     image: require("../images/rtbuddy.png"),
+    //     webSiteLink: 'https://stannous2.github.io/Project1/'
+    // },
     {
         id: 2,
         title: "PaiMai",
