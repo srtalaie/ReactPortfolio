@@ -85,23 +85,6 @@ class Home extends Component {
                 <Grid container
                     justify="center"
                 >
-                    {/* Old Profile image Card
-                        <Card style={cardStyles}>
-                            <CardActionArea>
-                                <CardMedia 
-                                    component="img"
-                                    src={profilePic}
-                                    title="Sasha_Talaie"
-                                    height="50%"
-                                />
-                            </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary" href="https://github.com/srtalaie">GitHub</Button>
-                                <Button size="small" color="primary" href="https://www.linkedin.com/in/sasha-talaie/">LinkedIn</Button>
-                            </CardActions>
-                        </Card>  
-                    */}
-
                     <img src={profilePic} alt="Profile Pic" style={profileImgStyle}></img>
 
                 </Grid>
@@ -113,10 +96,9 @@ class Home extends Component {
                 </Grid>
 
                 <Grid container
-                    lg={"auto"} md={"auto"} sm={"auto"} xl={"auto"} xs={"auto"}
                     justify="center"
-                    wrap="no-wrap"
-                    spacing={16}
+                    wrap="wrap"
+                    spacing={10}
                 >
                     {ProjectsArr.map(project => {
                         return(

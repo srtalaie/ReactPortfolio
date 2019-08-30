@@ -22,8 +22,8 @@ const ProjectsCard = ({ image, gitHubLink, description, cardstyle, title, webLin
                     component="img"
                     src={image}
                     title={title}
-                    height="50%"
-                    width="50%"
+                    height="10%"
+                    width="10%"
                 />
             </CardActionArea>
             <CardContent style={innerStyle}>
