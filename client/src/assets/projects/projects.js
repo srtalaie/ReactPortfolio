@@ -91,6 +91,14 @@ const Projects = [
         description: "A web app that will pull from the GIPHY API based on the topic you enter in the search bar. Comes preloaded with the following topics: NHL, NFL, MLB, NBA, NCAA Football, NCAA BAsketball.",
         image: require("../images/giphy.png"),
         webSiteLink: "https://srtalaie.github.io/GIPHY-API-App/"
+    },
+    {
+        id: 13,
+        title: "LoL Chest Checker",
+        gitHubLink: "https://github.com/srtalaie/LoLChestChecker",
+        description: "This is a little web tool I created so I can quickly check which champs I have gotten chests for in champ select during ARAM as there is no way to see. Utilizes Riot's API.",
+        image: require("../images/chest.jpg"),
+        webSiteLink: 'https://lolchestchecker.herokuapp.com/'
     }
 ]
 
