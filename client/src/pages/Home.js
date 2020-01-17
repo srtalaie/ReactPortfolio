@@ -1,31 +1,18 @@
 import React, { Component } from "react";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import Typography from '@material-ui/core/Typography';
-import Card from '@material-ui/core/Card';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import { CardActionArea, CardActions, GridListTile, ListSubheader } from "@material-ui/core";
+import { GridListTile, Typography } from "@material-ui/core";
 import profilePic from "../assets/images/profilePic.jpg";
 import ProjectsCard from "../components/ProjectsCard/ProjectsCard";
 import ProjectsArr from "../assets/projects/projects";
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import ReactTransitionGroup from 'react-addons-transition-group'
 import GridList from '@material-ui/core/GridList';
+import githubLogo from '../assets/images/githubLogo.png';
+import linkedinLogo from '../assets/images/linkedinLogo.png';
+
 
 const headingStyles = {
     margin: 20
-}
-
-const cardStyles = {
-    width: "25%",
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center"
-}
-
-const projectCardStyles = {
-    margin: 40
 }
 
 const profileImgStyle = {
@@ -38,6 +25,11 @@ const profileImgStyle = {
 const profileLinks = {
     color: "black",
     margin: 8
+}
+
+const linkAndLogoStyles = {
+    display: 'flex',
+    flexDirection: 'row',
 }
 
 
@@ -91,9 +83,10 @@ class Home extends Component {
                 </Grid>
                 <Grid container justify="center" style={{ marginBottom : "40px" }}>
                     <div>
-                        <a href="https://github.com/srtalaie" style={profileLinks}>GitHub Profile</a>
-                        <a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}>LinkedIn Profile</a>
-                    </div>
+                        <div style={linkAndLogoStyles}>
+                            <img src={githubLogo} alt="githublogo" height='32' width='32' /><a href="https://github.com/srtalaie" style={profileLinks}>GitHub Profile</a>
+                            <img src={linkedinLogo} alt="githublogo" height='32' width='32' /><a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}>LinkedIn Profile</a></div>
+                        </div>
                 </Grid>
                 <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Projects</h1>
                 <GridList cellHeight={'auto'} cols={3} spacing={24}>
