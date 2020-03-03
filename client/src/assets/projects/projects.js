@@ -17,6 +17,14 @@ const Projects = [
     },
     {
         id: 3,
+        title: "WestCoast Lab Co. Site [IN PROGRESS]",
+        gitHubLink: "https://github.com/srtalaie/captainTrav",
+        description: "Site made for West Coast Lab Co.",
+        image: require("../images/react-app-logo.png"),
+        webSiteLink: 'https://safe-crag-59591.herokuapp.com/'
+    },
+    {
+        id: 4,
         title: "Crystalls Collector",
         gitHubLink: "https://github.com/srtalaie/crystals-collector",
         description: "In this game you will try to guess which each crystals numerical value is. And afterwards you will have to collect the correct amount of crystals to reach the score of a randomly generated number. If you reach that number without going over you win. If you do go over however you lose and the game will re-initialize itself with new values for each crystal.",
@@ -24,7 +32,7 @@ const Projects = [
         webSiteLink: 'https://srtalaie.github.io/crystals-collector/'
     },
     {
-        id: 4,
+        id: 5,
         title: "NewsScrapper",
         gitHubLink: "https://github.com/srtalaie/NewsScraper",
         description: "Scrapes reddit's r/news feed for the trending posts at that time. Allows you to save the articles and add notes to them.",
@@ -32,21 +40,21 @@ const Projects = [
         webSiteLink: 'https://vast-crag-61332.herokuapp.com/'
     },
     {
-        id: 5,
+        id: 6,
         title: "Clicky Game",
         gitHubLink: "https://github.com/srtalaie/ClickyGame",
         description: "Click on Any Picture and Earn Points. But don't click on any image more than once. Once You've clicked all the pics without hitting the same one you win. App built with React.",
         image: require("../images/react-app-logo.png")
     },
     {
-        id: 6,
+        id: 7,
         title: "Chat App",
         gitHubLink: "https://github.com/srtalaie/chatApp",
         description: "Chat App 2.0. Simple chat app using socket.io library.",
         image: require("../images/socket-io-logo.png")
     },    
     {
-        id: 7,
+        id: 8,
         title: "Eat-Da-Burger",
         gitHubLink: "https://github.com/srtalaie/Eat-Da-Burger",
         description: "Burger App. Allows the customer to create their own burger and eat it. Sequelized version link in the ReadMe.",
@@ -54,7 +62,7 @@ const Projects = [
         webSiteLink: 'https://eat-da-burger-app-1.herokuapp.com/'
     },    
     {
-        id: 8,
+        id: 9,
         title: "Train-Scheduler",
         gitHubLink: "https://github.com/srtalaie/Train-Scheduler",
         description: "Enter in your train's name, destination, frequency of arrivals and see when your next train will arrive and how much more time till then. Use the red 'X' button on the side to delete the corresponding train.",
@@ -62,7 +70,7 @@ const Projects = [
         webSiteLink: 'https://srtalaie.github.io/Train-Scheduler/'
     },
     {
-        id: 9,
+        id: 10,
         title: "Gamestates",
         gitHubLink: "https://github.com/srtalaie/gameStates",
         description: "A website that displays popular games' current playerbase (monthly) to help people see whether a multiplayer game they want to play is still alive or dead.",
@@ -70,7 +78,7 @@ const Projects = [
         webSiteLink: 'https://vast-citadel-15933.herokuapp.com/'
     },
     {
-        id: 10,
+        id: 11,
         title: "Baked Bear Bakery",
         gitHubLink: "https://github.com/srtalaie/BrightBearBakery",
         description: "A website I made for Baked Bear Bakery up in Petaluma for practice.",
@@ -78,14 +86,14 @@ const Projects = [
         webSiteLink: 'https://nameless-scrubland-85581.herokuapp.com/'
     },
     {
-        id: 11,
+        id: 12,
         title: "Reaculator",
         gitHubLink: "https://github.com/srtalaie/Reaculator",
         description: "A web app I made using React/Redux for freecodecamps React/Redux project",
         image: require("../images/react-redux.png"),
     },
     {
-        id: 12,
+        id: 13,
         title: "GIPHY App",
         gitHubLink: "https://github.com/srtalaie/GIPHY-API-App",
         description: "A web app that will pull from the GIPHY API based on the topic you enter in the search bar. Comes preloaded with the following topics: NHL, NFL, MLB, NBA, NCAA Football, NCAA BAsketball.",
@@ -93,7 +101,7 @@ const Projects = [
         webSiteLink: "https://srtalaie.github.io/GIPHY-API-App/"
     },
     {
-        id: 13,
+        id: 14,
         title: "LoL Chest Checker",
         gitHubLink: "https://github.com/srtalaie/LoLChestChecker",
         description: "This is a little web tool I created so I can quickly check which champs I have gotten chests for in champ select during ARAM as there is no way to see. Utilizes Riot's API.",
