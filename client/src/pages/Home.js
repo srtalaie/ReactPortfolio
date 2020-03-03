@@ -55,37 +55,37 @@ class Home extends Component {
                 > 
                     Sasha Talaie's Protfolio
                 </Typography>
-                <ReactTransitionGroup>
-                <ReactCSSTransitionGroup
-                    transitionName="fade"
-                    transitionAppear={true}
-                    transitionAppearTimeout={3000}
-                    transitionEnterTimeout={500}
-                    transitionLeaveTimeout={300}
-                >
-                <Typography
-                    variant="h6"
-                    align="center" 
-                    color="textSecondary" 
-                    paragraph
-                    style={{margin: 20}}
-                    key={1}
-                >
-                    Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome.
-                </Typography>
-                </ReactCSSTransitionGroup>
-                </ReactTransitionGroup>
                 <Grid container
                     justify="center"
                 >
                     <img src={profilePic} alt="Profile Pic" style={profileImgStyle}></img>
 
                 </Grid>
+                <ReactTransitionGroup>
+                    <ReactCSSTransitionGroup
+                        transitionName="fade"
+                        transitionAppear={true}
+                        transitionAppearTimeout={3000}
+                        transitionEnterTimeout={500}
+                        transitionLeaveTimeout={300}
+                    >
+                        <Typography
+                            variant="h6"
+                            align="center" 
+                            color="textSecondary" 
+                            paragraph
+                            style={{margin: 20}}
+                            key={1}
+                        >
+                            Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome. No task too big or too small. No technology out of my wheelhouse. No mountain high, no valley low.
+                        </Typography>
+                    </ReactCSSTransitionGroup>
+                </ReactTransitionGroup>
                 <Grid container justify="center" style={{ marginBottom : "40px" }}>
                     <div>
                         <div style={linkAndLogoStyles}>
-                            <img src={githubLogo} alt="githublogo" height='32' width='32' /><a href="https://github.com/srtalaie" style={profileLinks}>GitHub Profile</a>
-                            <img src={linkedinLogo} alt="githublogo" height='32' width='32' /><a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}>LinkedIn Profile</a></div>
+                            <img src={githubLogo} alt="githublogo" height='32' width='32' /><a href="https://github.com/srtalaie" style={profileLinks}></a>
+                            <img src={linkedinLogo} alt="githublogo" height='32' width='32' /><a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}></a></div>
                         </div>
                 </Grid>
                 <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Projects</h1>
