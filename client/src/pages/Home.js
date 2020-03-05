@@ -151,7 +151,7 @@ class Home extends Component {
                     </div>
                 </Grid>
                 <h1 style={{ textAlign: "center", marginBottom: "40px" }}>Projects</h1>
-                <GridList cellHeight={'auto'} cols={3} spacing={24}>
+                <GridList cellHeight={'auto'} cols={3} spacing={24} style={{ justifyContent: "center", margin: '0px' }}>
                     {ProjectsArr.map(project => {
                         return(
                             <GridListTile>
