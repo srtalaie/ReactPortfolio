@@ -98,7 +98,7 @@ class Home extends Component {
                             align="center" 
                             color="textSecondary" 
                             paragraph
-                            style={{marginLeft: 20, marginRight: 20, marginTop: 75, marginBottom: 75}}
+                            style={{marginLeft: 20, marginRight: 20, marginTop: 20, marginBottom: 20}}
                             key={1}
                         >
                             Web developer with a passion for creating elegant, mobile responsive, functional websites. Fast learner, creative and resourceful with a penchant for problem solving and critical thinking. An eye for detail and always looking for the next challenge to overcome. <p>No task too big or too small. No technology out of my wheelhouse. No mountain high, no valley low.</p>
