@@ -4,7 +4,7 @@ const Projects = [
         title: "FantasyNooz",
         gitHubLink: "https://github.com/srtalaie/fantasyNooz",
         description: "A fantasy football dashboard I made to localize all of your fantasy football tools. The API I made receives its data from a variety of sites which I credit in the repo.",
-        image: require("../images/fantasy_football.png"),
+        image: require("../images/fantasyNooz.png"),
         webSiteLink: 'https://radiant-depths-17787.herokuapp.com/'
     },
     {
