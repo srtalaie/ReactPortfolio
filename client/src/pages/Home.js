@@ -48,7 +48,9 @@ const linkAndLogoStyles = {
 const liNoBullet = {
     listStyleType: 'none',
     display: 'flex',
-    flexDirection: 'row'
+    flexDirection: 'row',
+    flexWrap: "wrap",
+    justifyContent: "center"
 }
 
 const liStyle = {
@@ -104,8 +106,8 @@ class Home extends Component {
                         <Grid container justify="center" style={{ marginBottom : "75px" }}>
                             <div>
                                 <div style={linkAndLogoStyles}>
-                                <a href="https://github.com/srtalaie" style={profileLinks}><img src={githubLogo} alt="githublogo" height='32' width='32' /></a>
-                                <a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}><img src={linkedinLogo} alt="githublogo" height='32' width='32' /></a></div>
+                                <a href="https://github.com/srtalaie" style={profileLinks}><img src={githubLogo} alt="githublogo" height='32' width='32' title="GitHub Profile"/></a>
+                                <a href="https://www.linkedin.com/in/sasha-talaie/" style={profileLinks}><img src={linkedinLogo} alt="githublogo" height='32' width='32' title="LinkedIn Profile"/></a></div>
                                 </div>
                         </Grid>
                     </ReactCSSTransitionGroup>
