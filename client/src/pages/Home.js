@@ -82,7 +82,7 @@ class Home extends Component {
                 <Grid container
                     justify="center"
                 >
-                    <img src={profilePic} alt="Profile Pic" style={profileImgStyle}></img>
+                    <img src={profilePic} alt="Profile Pic" style={profileImgStyle} className="profilePic"></img>
 
                 </Grid>
                 <ReactTransitionGroup>
