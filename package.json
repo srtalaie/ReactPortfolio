@@ -29,7 +29,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "event-stream": "^4.0.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "if-env": "^1.0.4",
     "path": "^0.12.7",
     "react-addons-css-transition-group": "^15.6.2"
